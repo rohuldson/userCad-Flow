@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css" />
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="card">
+          <h1>Realizar Login</h1>
+          <div id="msgError"></div>
+          <div class="label-float">
+            <input type="text" name="usuario" id="usuario" placeholder="" required />
+            <label for="usuario" id="userLabel">Usuário</label>
+          </div>
+    
+          <div class="label-float">
+            <input type="password" name="senha" id="senha" placeholder="" required />
+            <label for="senha" id="senhaLabel">Senha</label>
+            <i class="fa fa-eye" id="seePass"></i>
+          </div>
+    
+          <div class="justify-center">
+            <button onclick="Entrar()">Cadastrar</button>
+          </div>
+    
+          <div class="justify-center">
+            <hr />
+          </div>
+    
+          <p>
+            Não possui uma conta?
+            <a href="./cadastro.html">Cadastre-se</a>
+          </p>
+        </div>
+    
+      </div>
+    
+      </div>
+
+     <script src="./login.js"></script>
+  </body>
+</html>
