@@ -51,7 +51,7 @@ usuario.addEventListener("keyup", () => {
 senha.addEventListener("keyup", () => {
   if (senha.value.length <= 7) {
     labelSenha.setAttribute("style", "color: red");
-    labelSenha.innerHTML = "Senha *Insira uam senha com letras e números";
+    labelSenha.innerHTML = "Senha *Insira uma senha com letras e números";
     senha.setAttribute("style", "border-color: red");
     validSenha = false;
   } else {
